@@ -163,10 +163,10 @@ main {
     justify-content: center;
 }
 
- /* Meetups section */
+ /* Meet times section */
  #times {
     background: url("../images/dublin-city.webp") no-repeat center/cover;
-    /* Handles repsonsivity without the need for a media query */
+    /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
  }
@@ -280,7 +280,7 @@ main {
         flex: 1;
     }
     #benefits-image {
-        order: 0;
+        order: 0
     }
 
     #benefits-mental {
@@ -288,10 +288,10 @@ main {
     }
    
     #benefits-physical > div {
-        align-self: flex-start; 
+        align-self: flex-end; 
     }
     #benefits-mental > div {
-        align-self: flex-end;
+        align-self: flex-start;
     }
 }
   
